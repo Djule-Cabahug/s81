@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+#introduction {
+    background-image: url(./images/books.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 70vh;
+}
+
+#intro-title {
+    font-size: 75px;
+    font-weight: bold;
+    text-shadow: 4px 4px #fff;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+.card {
+    height: 500px;
+}
+
+.card-img-top {
+    height: 270px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card-body a {
+    background-color: #ecc601;
+}
+
+.card-body a:hover {
+    background-color: #dcb903;
+}
+
+.category {
+    color: #ecc601;
+    font-size: 100px
+}
+
+#mission h3 {
+    color: #ecc601;
+    font-size: 50px
+}
+
+#mission p {
+    line-height: 220%
+}
+
+#contact button {
+    background-color: #ecc601;
+}
